@@ -8,6 +8,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: black;
+    color: green;
 }
 #gameboard{
     padding-top: 20px;
@@ -19,7 +21,8 @@ body{
    
 }
 .grid-items{
-    border: 1px solid black;
+    border: 1px solid green;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,4 +38,34 @@ body{
 }
 #player-controls{
     padding-top: 20px;
+    text-align: center;
+}
+.btn-controls{
+    text-align: center;
+    padding-top: 20px;
+}
+button{
+    background-color: green;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: white;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    outline: 2px solid green;
+    color: green;
+}
+
+#message{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: orange;
 }
