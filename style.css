@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#gameboard{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    height: 400px;
+    width: 600px;
+
+   
+}
+.grid-items{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: green;
+    font-weight: bold;
+   
+}
+.grid-items:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+#player-controls{
+    padding-top: 20px;
+}
